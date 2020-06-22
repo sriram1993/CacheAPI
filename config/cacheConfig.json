@@ -1,7 +1,7 @@
 
 {
     "cacheThreshold" : 10,
-    "cacheTimeToLiveInHours" : 2,
+    "cacheTimeToLiveInHours" : 5,
     "cacheKeyLength" : 4,
     "cacheValueLength" : 8
 }

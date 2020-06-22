@@ -4,12 +4,12 @@ var Schema = mongoose.Schema;
 let dt = new Date();
 
 var Cache = new Schema(
-    { 
-        key : String,
-        value : String,
-        timeToLive : Date,
-        accessCount : Number,
-        isDeleted : Boolean
+    {
+        key: String,
+        value: String,
+        timeToLive: Date,
+        accessCount: Number,
+        isDeleted: Boolean
     }
 );
 
