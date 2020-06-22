@@ -4,11 +4,12 @@ The Cache API has been implemented with a base project structure for express
 
 The following are the endpoints:
 
-  -GET : http://localhost:3003/cache/keys - Get all keys  
-  -GET : http://localhost:3003/cache/{key} - Get Cache Data based on a key  
-  -PUT : http://localhost:3003/cache/{key} - Update a Cache Value for a specific Key  
-  -DELETE : http://localhost:3003/cache/{key} - Delete a Cache Value for a specific Key  
-  -DELETE : http://localhost:3003/cache - Delete all cache data in the database  
+  -POST : http://localhost:3003/cache - Create a new cache  
+  -PUT : http://localhost:3003/cache - Update a Cache Value for a specific Key    
+  -GET : http://localhost:3003/cache - Get all Cache stored in database  
+  -GET : http://localhost:3003/cache/{key} - Get Cache data for a specific key  
+  -DELETE : http://localhost:3003/cache/{key} - Delete a Cache Value for a specific Key    
+  -DELETE : http://localhost:3003/cache - Delete all cache data in the database    
   
 The configuration specific to caches and database can be found under config folder  
 
