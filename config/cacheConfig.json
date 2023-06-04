@@ -3,5 +3,5 @@
     "cacheThreshold" : 10,
     "cacheTimeToLiveInHours" : 5,
     "cacheKeyLength" : 4,
-    "cacheValueLength" : 10
+    "cacheValueLength" : 15
 }
